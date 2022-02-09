@@ -5,7 +5,7 @@ PYTHON?=python3
 .PHONY : all
 
 all:
-		$(PYTHON) -m build
+	$(PYTHON) -m build
 
 clean: clean-build clean-pyc
 
