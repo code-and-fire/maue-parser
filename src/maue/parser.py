@@ -177,6 +177,10 @@ def _parse_detail_table(xml, name):
         detail_list.append(dict(zip(header, values)))
 
     logging.debug('detail table {} parsed'.format(name))
+    if detail_list:
+        logging.debug('{} entries found'.format(len(detail_list)))
+    else:
+        logging.debug('no entries found')
     return detail_list
 
 def parse(filename):
