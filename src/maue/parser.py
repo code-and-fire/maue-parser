@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #  February 09, 2022 Calvin Neumann
-#  License:  AGPLv3
+#  Initial Commit
 #
 #  Copyright (C) 2022 - Calvin Neumann
 #  License:  AGPLv3
